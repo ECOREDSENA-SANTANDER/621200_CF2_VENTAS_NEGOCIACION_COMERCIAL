@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1240" height="538.997" viewBox="0 0 1240 538.997">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectángulo_455354" data-name="Rectángulo 455354" width="1240" height="538.997" rx="20" fill="#6e3dc6"/>
+    </clipPath>
+    <linearGradient id="linear-gradient" x1="0.106" y1="0.024" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#75baf1"/>
+      <stop offset="1" stop-color="#fff"/>
+    </linearGradient>
+  </defs>
+  <g id="Grupo_1204385" data-name="Grupo 1204385" transform="translate(-116 -6697.861)">
+    <g id="Grupo_1204341" data-name="Grupo 1204341" transform="translate(-64 17.446)">
+      <g id="Grupo_1204340" data-name="Grupo 1204340">
+        <path id="Trazado_1261796" data-name="Trazado 1261796" d="M20,0H1220c11.046,0,20,10.313,20,23.034V515.963c0,12.721-8.954,23.034-20,23.034H20C8.954,539,0,528.684,0,515.963V23.034C0,10.313,8.954,0,20,0Z" transform="translate(180 6680.415)" fill="#aaca79" opacity="0.1"/>
+        <g id="Enmascarar_grupo_1098705" data-name="Enmascarar grupo 1098705" transform="translate(180 6680.415)" opacity="0.15" clip-path="url(#clip-path)">
+          <g id="Grupo_1204339" data-name="Grupo 1204339" transform="translate(-301.881 -176.355)">
+            <path id="Trazado_1261797" data-name="Trazado 1261797" d="M402,0C624.018,0,804,207.285,804,462.985S624.018,925.969,402,925.969,0,718.684,0,462.985,179.982,0,402,0Z" transform="translate(1769.969 1154.759) rotate(180)" fill="#aaca79"/>
+            <path id="Elipse_4044" data-name="Elipse 4044" d="M212.984,66.3c-85.7,0-155.421,80.3-155.421,179s69.722,179,155.421,179,155.421-80.3,155.421-179-69.722-179-155.421-179m0-66.3C330.612,0,425.969,109.822,425.969,245.295S330.612,490.59,212.984,490.59,0,380.767,0,245.295,95.356,0,212.984,0Z" transform="translate(0 576.64)" fill="url(#linear-gradient)"/>
+            <path id="Elipse_4044-2" data-name="Elipse 4044" d="M212.984,66.3c-85.7,0-155.421,80.3-155.421,179s69.722,179,155.421,179,155.421-80.3,155.421-179-69.722-179-155.421-179m0-66.3C330.612,0,425.969,109.822,425.969,245.295S330.612,490.59,212.984,490.59,0,380.767,0,245.295,95.356,0,212.984,0Z" transform="translate(700.887 621.556)" opacity="0.5" fill="url(#linear-gradient)"/>
+            <path id="Elipse_4044-3" data-name="Elipse 4044" d="M245.133,57c-98.7.227-179.176,70.136-179.4,155.84s79.884,155.244,178.58,155.017,179.176-70.136,179.4-155.84S343.829,56.775,245.133,57m.152-57.566c135.467-.311,245.033,94.8,244.721,212.43S379.624,425.113,244.157,425.425-.875,330.628-.564,212.994,109.818-.252,245.285-.564Z" transform="matrix(0.017, -1, 1, 0.017, 1443.202, 490.515)" opacity="0.5" fill="url(#linear-gradient)"/>
+            <path id="Elipse_4044-4" data-name="Elipse 4044" d="M41.448,12.9c16.677,0,30.246,15.626,30.246,34.834S58.125,82.569,41.448,82.569,11.2,66.943,11.2,47.735,24.77,12.9,41.448,12.9m0-12.9C18.557,0,0,21.372,0,47.735S18.557,95.471,41.448,95.471,82.9,74.1,82.9,47.735,64.339,0,41.448,0Z" transform="translate(276.969 653.569)" fill="none" stroke="#fff" stroke-width="2"/>
+            <path id="Elipse_4044-5" data-name="Elipse 4044" d="M15.781,4.912c6.35,0,11.516,5.95,11.516,13.263S22.131,31.438,15.781,31.438,4.265,25.488,4.265,18.175,9.431,4.912,15.781,4.912m0-4.912C7.065,0,0,8.137,0,18.175S7.065,36.35,15.781,36.35s15.781-8.137,15.781-18.175S24.5,0,15.781,0Z" transform="translate(984.324 223.216)" fill="#75baf1"/>
+            <path id="Elipse_4044-6" data-name="Elipse 4044" d="M10.781,3.356c4.338,0,7.867,4.065,7.867,9.061s-3.529,9.061-7.867,9.061-7.867-4.065-7.867-9.061,3.529-9.061,7.867-9.061m0-3.356C4.827,0,0,5.559,0,12.417S4.827,24.833,10.781,24.833s10.781-5.559,10.781-12.417S16.735,0,10.781,0Z" transform="translate(1503.969 638.98)" fill="#fff"/>
+            <ellipse id="Elipse_11577" data-name="Elipse 11577" cx="6" cy="6.91" rx="6" ry="6.91" transform="translate(1473.969 316.319)" fill="#fff"/>
+            <ellipse id="Elipse_11578" data-name="Elipse 11578" cx="6" cy="6.91" rx="6" ry="6.91" transform="translate(1388.969 684.864)" fill="#fff"/>
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>
