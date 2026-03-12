@@ -114,6 +114,9 @@ figcaption, table caption
     background-color: #A6CDEC
   &-8
     background-color: $color-secundario
+  &-9
+    box-shadow: 0px 0px 2px 2px rgba(0,0,0,.3)
+    border-radius: 10px
 
 .linea-tiempo-c__header__btn, .linea-tiempo-c__header__btn--left, .linea-tiempo-c__header__btn--right, .pasos-b__header__btn--left, .pasos-b__header__btn--right, .linea-tiempo-c__header__btn--left, .linea-tiempo-c__header__btn--right, .pasos-b__header__btn--left, .pasos-b__header__btn--right
     border: 0 !important
@@ -139,10 +142,21 @@ figcaption, table caption
 
 .mbt
   display: flex
+
+.pasos-a.color-acento-contenido .pasos-a__circle div 
+    color: #fff
+.pasos-a.color-primario .pasos-a__circle
+  background-color: #445130 !important
+.pasos-a.color-primario .pasos-a__numero::after
+    border-left-color:#445130 !important
+.pasos-a.color-primario .pasos-a__linea .hor-line
+    border-top-color: #445130 !important
+.pasos-a.color-primario .pasos-a__linea__esquina__linea
+  border-color: #445130 !important
 /*********************************************************/
 .comillas
-  background-color: #E2D8F4
-.cajon.color-acento-contenido 
+  background-color: #B5C7D1
+.cajon.secundario 
     background-color: #E2D8F4
 
 .titulo-segundo:after 
@@ -157,10 +171,10 @@ figcaption, table caption
 .bg1
   background-color: #D5EAFB
 .bg1table
-  background-color: #6E3DC6
+  background-color:  $color-primario
 .fa-check-circle:before, .fa-circle-check:before 
     content: "\f058"
-    color: #6E3DC6
+    color:  $color-secundario
 
 
 .fondo1
@@ -181,8 +195,6 @@ figcaption, table caption
   margin: auto
 
 
-.titulo-sexto.color-secundario 
-    border-left-color: #BE79CA
 
 .titulo-sexto 
     margin-bottom: 24px
@@ -212,7 +224,7 @@ figcaption, table caption
 
 .bloque-texto-b i 
     font-size: 2.5em
-    color: #BE79CA
+    color:  $color-secundario
 
 
 .bg2
@@ -266,7 +278,7 @@ figcaption, table caption
 
 
 .bg3
-  background-color: #6E3DC6
+  background-color:  $color-primario
   border-radius: 10px
   background-size: 100% 100%
   background-repeat: no-repeat
@@ -275,7 +287,7 @@ figcaption, table caption
   @media screen and (max-width: 992px)
     margin-inline: -1.4rem
 .bg33
-  background-color: #BE79CA
+  background-color:  $color-secundario
 .mbt
   margin-top: -15%
   margin-bottom: -15% 
@@ -289,7 +301,7 @@ figcaption, table caption
   background-position: cover
 
 .bg5
-  background-color: #BE79CA
+  background-color:  $color-secundario
 
 .sub
   &::after   
@@ -297,7 +309,7 @@ figcaption, table caption
     display: block
     height: 6px
     width: 250px
-    background-color: #BE79CA
+    background-color:  $color-secundario
     border-radius: 50px
 
 
@@ -312,7 +324,7 @@ figcaption, table caption
     border-radius: 5px
 
 .tarjeta--gris 
-    background-color: #6E3DC6
+    background-color:  $color-primario
     color: white
 
 .linea-tiempo-d__item--selected .linea-tiempo-d__item__content__title 
@@ -371,13 +383,13 @@ figcaption, table caption
     font-weight: 900
 
 .tabs-c.color-primario .tabs-c__tab--active 
-    border-bottom-color: #6E3DC6 !important
+    border-bottom-color:  $color-primario !important
 
 .tabs-c__tab--active 
     border-bottom: 6px solid !important
 
 .tabs-c.color-primario .tabs-c__tab--active:before 
-    border-top-color: #6E3DC6
+    border-top-color:  $color-primario
 
 .tabs-c__tab--active:before 
     width: 0
@@ -444,7 +456,7 @@ figcaption, table caption
 
 
 .titulo-segundo:after 
-  border-left-color: #be79ca
+  border-left-color:  $color-secundario
 
 .bg77
   background-color: #E2D8F4 !important 
@@ -459,7 +471,7 @@ figcaption, table caption
 
 .tabs-a__tab:last-child 
     margin-bottom: 0 !important
-    background-color: #6E3DC6!important
+    background-color:  $color-primario!important
 
 
 
@@ -497,7 +509,7 @@ figcaption, table caption
 .bloque-texto-f__comillas i 
     position: absolute
     font-size: 2.5em
-    color: #6E3DC6
+    color:  $color-primario
 
 
 .tarjeta.color
@@ -507,18 +519,18 @@ figcaption, table caption
   background-color: #fff
 
 .fa-chevron-right:before 
-    content: url('../assets/curso/temas/Tema1/der.png')
+    content: url('../assets/curso/temas/der.png')
 
 .fa-chevron-left:before 
-    content: url('../assets/curso/temas/Tema1/izq.png')
+    content: url('../assets/curso/temas/iz.png')
 
 
 
 .acordion__accion__btn--a
-  background-color: #BE79CA
+  background-color:  $color-secundario
   box-shadow: 0px 0px 7px 2px rgba(0,0,0,.3)
 .acordion .tarjeta--azul
-  background-color: #6E3DC6
+  background-color:  $color-primario
 
 .acordion .tarjeta.tarjeta--azul.acordion__activo
   background-color: #F2E4F5
@@ -549,12 +561,12 @@ figcaption, table caption
 
 
 .slyder-a__bullets__item 
-    background-color: #6E3DC6
+    background-color:  $color-primario
     opacity: .4
 
 .slyder-a__bullets__item--active 
-    background-color: #6E3DC6
-    border-color:#6E3DC6
+    background-color:  $color-primario
+    border-color: $color-primario
     opacity: 1 !important
 
 @media (max-width: 768px) 
@@ -624,7 +636,7 @@ figcaption, table caption
   left: 0
   right: 0
   content: ''
-  background-color: #6E3DC6
+  background-color:  $color-primario
   opacity: 1
   z-index: 888
   -webkit-transition: all 0.45s ease
@@ -642,7 +654,7 @@ figcaption, table caption
   -webkit-transition-delay: 0.1s
   -moz-transition-delay: 0.1s
   transition-delay: 0.1s
-  background-color: #BE79CA
+  background-color:  $color-secundario
 .nav-holder2
   .text
     position: absolute

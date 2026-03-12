@@ -25,8 +25,8 @@
         .tabla-b.color-acento-contenido.mb-5
           thead.bg1table
             tr
-              th.text-white Niveles
               th.text-white Usuario
+              th.text-white Cliente
           tbody
             tr
               th Utiliza
@@ -84,7 +84,7 @@
       .col-lg-8
         p El mercado de consumo se compone por todas aquellas personas que adquieren o compran bienes y servicios y luego lo utilizan para satisfacer sus necesidades finales. Tiene un papel importante en el desarrollo socioeconómico de una economía, pues es un indicador de ese estado de bienestar, producto de empleos, ingresos y productividad. Entre más crece el empleo hay mayor poder adquisitivo y por ende, las personas compran más, influyendo en el funcionamiento de otros mercados.
         p Este mercado, del cual las personas compran bienes y servicios para su uso personal o familiar, tiene comportamientos y decisiones de compra en los consumidores: ¿dónde?, ¿cómo?, ¿cuándo compran?, ¿qué cantidad? y ¿por qué lo hacen? Estos son los interrogantes que a las empresas les interesa conocer para presentar una oferta que le genere valor al cliente.
-        .cajon.color-acento-contenido.p-4.mb-4
+        .cajon.color-secundario.p-4.mb-4
           p Las empresas desean saber con qué frecuencia sus consumidores van de visita a una tienda, a un restaurante y que tanto consumen o utilizan sus productos. En los departamentos de mercadeo las empresas buscan la manera de distinguir a los usuarios ligeros, medios o pesados, a los cuales después se les llegará a través de la publicidad.
 
     p.mb-3 El mercado de consumo tiene características que son definidas por las empresas en el proceso de segmentación donde se identifican y seleccionan grupos homogéneos de clientes. Algunas de estas características, se explican en el siguiente video:
@@ -102,7 +102,7 @@
         img.py-3(src='@/assets/curso/temas/Tema1/img07.png')
       .col-lg-8
         SlyderF(columnas="col-lg-4 col-xl-5 col-md-6").mb-5
-          .tarjeta.color.p-4
+          .tarjeta.bg-color-9.p-4
             .row.justify-content-center
               .col-12
                 img.img-a.img-t.mb-4(data-aos="zoom-in-left")(src='@/assets/curso/temas/Tema1/ico1.png' alt='AvatarTop')
@@ -111,10 +111,10 @@
                     .bg33
                       h4.text-center Consumo inmediato
                     .py-2
-                    h4.text-center.mb-0 Mercados de productos de consumo inmediato
-                p.text-center(data-aos="fade-right") La adquisición de productos por los compradores individuales o familiares se realiza con gran frecuencia, siendo generalmente consumidos al poco tiempo de tenerlos. Es el caso de los alimentos perecederos.
+                    h4.mb-0 Mercados de productos de consumo inmediato
+                p(data-aos="fade-right") La adquisición de productos por los compradores individuales o familiares se realiza con gran frecuencia, siendo generalmente consumidos al poco tiempo de tenerlos. Es el caso de los alimentos perecederos.
           
-          .tarjeta.color.p-4
+          .tarjeta.bg-color-9.p-4
             .row.justify-content-center
               .col-12
                 img.img-a.img-t.mb-4(data-aos="zoom-in-left")(src='@/assets/curso/temas/Tema1/ico2.png' alt='AvatarTop')
@@ -123,11 +123,11 @@
                     .bg33
                       h4.text-center Consumo duradero
                     .py-2
-                    h4.text-center.mb-0 Mercados de productos de consumo duradero
+                    h4.mb-0 Mercados de productos de consumo duradero
 
-                p.text-center(data-aos="fade-right") Son todos aquellos productos adquiridos, que se utilizan a lo largo de diversos períodos de tiempo, incluso cuando ya han perdido su utilidad o se han desactualizado como es el caso de los electrodomésticos, por ejemplo.
+                p(data-aos="fade-right") Son todos aquellos productos adquiridos, que se utilizan a lo largo de diversos períodos de tiempo, incluso cuando ya han perdido su utilidad o se han desactualizado como es el caso de los electrodomésticos, por ejemplo.
           
-          .tarjeta.color.p-4
+          .tarjeta.bg-color-9.p-4
             .row.justify-content-center
               .col-12
                 img.img-a.img-t.mb-4(data-aos="zoom-in-left")(src='@/assets/curso/temas/Tema1/ico3.png' alt='AvatarTop')
@@ -136,8 +136,8 @@
                     .bg33
                       h4.text-center Servicios
                     .py-2
-                    h4.text-center.mb-0 Mercados de servicios
-                p.text-center(data-aos="fade-right") Están constituidos por aquellos mercados en los que los compradores individuales o familiares adquieren bienes intangibles para su satisfacción presente o futura. Un ejemplo de ellos es la salud.
+                    h4.mb-0 Mercados de servicios
+                p(data-aos="fade-right") Están constituidos por aquellos mercados en los que los compradores individuales o familiares adquieren bienes intangibles para su satisfacción presente o futura. Un ejemplo de ellos es la salud.
           
     separador
     #t_1_2.titulo-segundo.mb-4
@@ -148,7 +148,7 @@
     
     .row.justify-content-center.align-items-center
       .col-lg-10.mb-(data-aos="fade-right")  
-        PasosA.color-acento-contenido.mb-5(tipo="n")(data-aos="zoom-in-left")
+        PasosA.color-primario.mb-5(tipo="n")(data-aos="zoom-in-left")
           .row
             .col-md-8.mb-4.mb-md-0
               h3 Compradores industriales
@@ -244,7 +244,7 @@
     p Los negocios internacionales involucran el proceso de exportación o importación de algún producto entre países o naciones. Estos negocios pueden efectuarse por empresas o personas naturales. Los clientes de un mercado internacional son consumidores, revendedores y productores de los gobiernos de otros países diferentes al que gestiona. 
     .row.justify-content-center.align-items-center(data-aos="fade-right")
       .col-lg-10
-        .bloque-texto-g.color-acento-contenido.p-3.p-sm-4.p-md-5
+        .bloque-texto-g.color-secundario.p-3.p-sm-4.p-md-5
           .bloque-texto-g__img(
             :style="{'background-image': `url(${require('@/assets/curso/temas/Tema1/img14.png')})`}"
           )

@@ -27,7 +27,7 @@
     
     .row.justify-content-center.align-items-center.mb-0
       .col-lg-8
-        .cajon.color-acento-contenido.p-4.mb-4
+        .cajon.secundario.p-4.mb-4
           p Sólo las empresas que conocen y entienden de mejor manera las necesidades, los intereses y deseos de sus clientes, son aquellas capaces de preparar las mejores propuestas de productos para ser entregados al mercado.
     
     separador
