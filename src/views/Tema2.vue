@@ -27,7 +27,7 @@
     
     .row.justify-content-center.align-items-center.mb-0
       .col-lg-8
-        .cajon.secundario.p-4.mb-4
+        .cajon.color-secundario.p-4.mb-4
           p Sólo las empresas que conocen y entienden de mejor manera las necesidades, los intereses y deseos de sus clientes, son aquellas capaces de preparar las mejores propuestas de productos para ser entregados al mercado.
     
     separador
@@ -182,7 +182,7 @@
     
     .row.justify-content-center.align-items-center(data-aos="fade-right")
       .col-lg-12
-        .bloque-texto-g.color-acento-contenido.p-3.p-sm-4.p-md-5
+        .bloque-texto-g.color-secundario.p-3.p-sm-4.p-md-5
           .bloque-texto-g__img(
             :style="{'background-image': `url(${require('@/assets/curso/temas/Tema2/img10.png')})`}"
           )
@@ -232,7 +232,7 @@
             img(src="@/assets/curso/temas/Tema2/img12.png", alt="")
             .text.p-2
               .row.text-center.px-1.pt-1.mt-md-4.pt-md-0.mt-lg-3.mt-xl-4
-                h4.mt-3.mb-3.text-white Tarjetas de fidelización
+                h4.mt-3.mb-3 Tarjetas de fidelización
                 p.px-4 Se trata de premiar el consumo con obsequios. Este tipo de tarjetas ofrece a los titulares una serie de ventajas adicionales como descuentos, puntos canjeables por regalos e incluso la devolución de un tanto por ciento de sus compras.
       
       .col-lg-4.col-md-6.mb-3.mb-md-0
@@ -241,7 +241,7 @@
             img(src="@/assets/curso/temas/Tema2/img13.png", alt="")
             .text.p-2
               .row.text-center.px-1.pt-1.mt-md-4.pt-md-0.mt-lg-3.mt-xl-4
-                h4.mt-3.mb-3.text-white Cupones de descuento
+                h4.mt-3.mb-3 Cupones de descuento
                 p.px-4 El usuario puede recortar un cupón y obtendrá una rebaja en el precio de algún producto o servicio del establecimiento.
       .col-lg-4.col-md-6.mb-3.mb-md-0
         .row.px-2.pt-2.h-100
@@ -249,7 +249,7 @@
             img(src="@/assets/curso/temas/Tema2/img14.png", alt="")
             .text.p-2
               .row.text-center.px-1.pt-1.mt-md-4.pt-md-0.mt-lg-3.mt-xl-4
-                h4.mt-3.mb-3.text-white Regalos
+                h4.mt-3.mb-3 Regalos
                 p.px-4 El cliente recibe un regalo, vinculado o no a la actividad de la empresa, y es ofrecido en agradecimiento a la compra o uso de un producto o servicio del establecimiento. También se pueden dar por fechas especiales.
       
       .col-lg-4.col-md-6.mb-3.mb-md-0
@@ -258,7 +258,7 @@
             img(src="@/assets/curso/temas/Tema2/img15.png", alt="")
             .text.p-2
               .row.text-center.px-1.pt-1.mt-md-4.pt-md-0.mt-lg-3.mt-xl-4
-                h4.mt-3.mb-3.text-white Puntos de compra
+                h4.mt-3.mb-3 Puntos de compra
                 p.px-4 Permiten obtener una serie de beneficios en tiempo real. Como la estrategia de los Almacenes Éxito “Puntos Colombia”.
       
       .col-lg-4.col-md-6.mb-3.mb-md-0
@@ -267,7 +267,7 @@
             img(src="@/assets/curso/temas/Tema2/img16.png", alt="")
             .text.p-2
               .row.text-center.px-1.pt-1.mt-md-4.pt-md-0.mt-lg-3.mt-xl-4
-                h4.mt-3.mb-3.text-white Gestionar clientes a través de #[em apps]
+                h4.mt-3.mb-3 Gestionar clientes a través de #[em apps]
                 p.px-4 Una aplicación en el móvil permite interactuar con los clientes. A este tipo de aplicaciones se les puede añadir diferentes funcionalidades, como por ejemplo, una búsqueda de clientes para así, tenerlo todo ordenado y clasificado según categorías o intereses.
       
       .col-lg-4.col-md-6.mb-3.mb-md-0
@@ -276,7 +276,7 @@
             img(src="@/assets/curso/temas/Tema2/img17.png", alt="")
             .text.p-2
               .row.text-center.px-1.pt-1.mt-md-4.pt-md-0.mt-lg-3.mt-xl-4
-                h4.mt-3.mb-3.text-white Comunicación personalizada
+                h4.mt-3.mb-3 Comunicación personalizada
                 p.px-4 Envío directo al cliente de ofertas con descuento exclusivo y personalizado.
       
       .col-lg-4.col-md-6.mb-3.mb-md-0
@@ -285,7 +285,7 @@
             img(src="@/assets/curso/temas/Tema2/img18.png", alt="")
             .text.p-2
               .row.text-center.px-1.pt-1.mt-md-4.pt-md-0.mt-lg-3.mt-xl-4
-                h4.mt-3.mb-3.text-white C.R.M
+                h4.mt-3.mb-3 C.R.M
                 p.px-4 Montado para tener comunicaciones más fluidas y directas con los clientes.
       
       .col-lg-4.col-md-6.mb-3.mb-md-0
@@ -294,7 +294,7 @@
             img(src="@/assets/curso/temas/Tema2/img19.png", alt="")
             .text.p-2
               .row.text-center.px-1.pt-1.mt-md-4.pt-md-0.mt-lg-3.mt-xl-4
-                h4.mt-3.mb-3.text-white Club de clientes
+                h4.mt-3.mb-3 Club de clientes
                 p.px-4 Puede ser por gustos, hábitos o labores que se realicen en la casa.
        
     
