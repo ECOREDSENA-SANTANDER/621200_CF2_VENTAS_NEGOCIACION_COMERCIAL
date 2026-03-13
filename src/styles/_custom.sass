@@ -267,7 +267,7 @@ figcaption, table caption
     flex: auto
     border-radius: 50%
     border: 2px solid #cccccc
-    background-color: #F9CE24
+    background-color: $color-acento-botones
     position: relative
     cursor: pointer
     transition: border-color 0.2s ease-in-out
@@ -310,11 +310,18 @@ figcaption, table caption
 
 
 .bg4
-  background: url('../assets/curso/temas/fond.png')
-  background-size: 100% 100%
-  background-repeat: no-repeat
-  background-position: cover
-
+  background-color: $color-acento-contenido
+  border-radius: 30px
+.bg42
+  background-color: $color-primario
+  border-radius: 30px
+.bloque--color
+  &-1
+    background-color: $color-acento-contenido
+    width: fit-content
+  &-2
+    background-color: $color-secundario
+    width: fit-content
 .bg5
   background-color:  $color-secundario
 
@@ -478,11 +485,11 @@ figcaption, table caption
   border-radius: 10px
 
 .tabs-a.color-primario .tabs-a__tab__selected 
-    background-color: #F9CE24 !important
+    background-color: $color-acento-botones !important
     color: black
 
 .tabs-a.color-primario .tabs-a__tab__selected:before 
-    background-color: #F9CE24 !important
+    background-color: $color-acento-botones !important
 
 .tabs-a__tab:last-child 
     margin-bottom: 0 !important
@@ -587,7 +594,7 @@ figcaption, table caption
 .slyder-a__btn--sigt, .slyder-a__btn--atrs 
     width: 50px
     height: 50px
-    background-color: #ffc107
+    background-color: $color-acento-botones
     border-radius: 50%
     background-repeat: no-repeat
     background-size: 16px 24px

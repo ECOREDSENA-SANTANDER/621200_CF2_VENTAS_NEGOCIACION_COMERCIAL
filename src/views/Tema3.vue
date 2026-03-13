@@ -13,20 +13,20 @@
       .col-lg-6.col-md-12.mb-4
         .overflow-hidden.h-100.bg4.p-4
           img.img-a.img-t.mb-4(src='@/assets/curso/temas/Tema3/img01.png', alt='tema2')
-          .row.justify-content-center.mb-3
-            .col-12.mb-2
+          .row.justify-content-center.mb-3.bloque--color-2.py-2.m-auto.px-5
+            .col-12.mb-0
               .p-1 
                 h3.text-center.mb-0 Clientes actuales
           p.mb-4 Son todos los clientes que la empresa posee actualmente y por tanto representan un activo muy valioso, sobre todo para mantener el nivel de participación dentro del mercado total. Los clientes actuales se pueden mantener y aumentar su volumen de compra de la oferta de la empresa, con nuevos productos diferenciados para diversas necesidades. Por ejemplo, Quala ofrece Frutiño, una bebida refrescante, pero también ofrece NutriBela para el cabello. Son dos necesidades diferentes que ayuda a aumentar sus ventas y el tamaño de su mercado.
           p.mb-4 Para conservar a los clientes actuales, las empresas deben lograr la plena satisfacción de sus clientes, no solo con la entrega de productos de excelente calidad, sino brindando un nivel de servicio que los mantenga satisfechos y compren siempre la marca.
       .col-lg-6.col-md-12.mb-4
-        .overflow-hidden.h-100.bg4.p-4
+        .overflow-hidden.h-100.bg42.p-4
           img.img-a.img-t.mb-4(src='@/assets/curso/temas/Tema3/img02.png', alt='tema2')
-          .row.justify-content-center.mb-3
-            .col-12.mb-2
+          .row.justify-content-center.mb-3.bloque--color-1.py-2.m-auto.px-5
+            .col-12.mb-0
               .p-1 
                 h3.mb-0.text-center Clientes potenciales
-          p.mb-4 Los clientes potenciales son aquellos que probablemente adquirirán alguno de los productos o servicios que son ofertados por la empresa, pero aún no deciden la compra. Para que una empresa logre el crecimiento esperado debe procurar atraer estos clientes y lograr así aumentar su cuota de mercado o participación en el mismo. Para atraer nuevos clientes la empresa debe tener un producto diferenciado que genere valor para los clientes y se diferencie y supere lo que ofrece la competencia.
+          p.mb-4.text-white Los clientes potenciales son aquellos que probablemente adquirirán alguno de los productos o servicios que son ofertados por la empresa, pero aún no deciden la compra. Para que una empresa logre el crecimiento esperado debe procurar atraer estos clientes y lograr así aumentar su cuota de mercado o participación en el mismo. Para atraer nuevos clientes la empresa debe tener un producto diferenciado que genere valor para los clientes y se diferencie y supere lo que ofrece la competencia.
 
     p De acuerdo con la Pursell (s.f.), de la revista HupSpot, los clientes potenciales se componen en:
     
