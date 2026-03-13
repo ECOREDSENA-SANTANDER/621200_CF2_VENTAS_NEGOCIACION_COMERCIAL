@@ -27,15 +27,15 @@
     
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-5
-        .tarjeta.color.p-4
-          img.mb-2(src='@/assets/curso/temas/Tema4/A.svg', alt='')
+        .tarjeta.bg-color-7.p-4.h-card
+          h1.mb-3 A.
           p Tiene como propósito identificar prospectos e iniciar la comunicación con el cliente.
-          br
-      .py-2
+         
+     
       .col-lg-5
-        .tarjeta.color.p-4
-          img.mb-2(src='@/assets/curso/temas/Tema4/B.svg', alt='')
-          p Requiere de un análisis previo del modelo de negocio (propio) y conocimiento detallado del negocio (mercado) en el cual se encuentra el o los clientes objetivo.
+        .tarjeta.bg-color-1.p-4.h-card
+          h1.text-white.mb-3 B.
+          p.text-white Requiere de un análisis previo del modelo de negocio (propio) y conocimiento detallado del negocio (mercado) en el cual se encuentra el o los clientes objetivo.
   
     p Se compone de los siguientes pasos:
     .row.justify-content-center.align-items-center.mb-5(data-aos="fade-left")
