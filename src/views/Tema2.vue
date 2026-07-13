@@ -14,7 +14,7 @@
         p El #[em marketing] relacional de acuerdo con Gronroos (1994), es el “conjunto de relaciones a largo plazo que las empresas pretenden crear, mantener y fomentar con clientes, con el objetivo de alcanzar una relación sólida y duradera, mantener el mayor número de negocios con sus clientes y obtener el mayor beneficio” (p.142). 
         p La empresa utiliza herramientas de mercadeo y su portafolio de ofertas para encontrar la mejor manera de crear valor, lo que fomenta una relación a largo plazo con el cliente. A continuación, se presentan aspectos básicos de la gestión de clientes, incluyendo cómo captarlos y fidelizarlos a través del desarrollo de acciones promocionales y la atención a sus quejas y reclamaciones. 
 
-    p De acuerdo con esto, Gronroos (1990) (en Agüero, 2014, p. 8), propone las siguientes funciones del #[em marketing] relacional que debe llevar una empresa:
+    p De acuerdo con esto, Gronroos (1990, como se citó en Agüero, 2014, p. 8) propone las siguientes funciones del #[em marketing] relacional que debe llevar una empresa: 
     
     .row.justify-content-center.align-items-center.mb-0(data-aos="fade-right")
       .col-lg-10
@@ -36,8 +36,7 @@
     
     .row.justify-content-center.align-items-center.mb-2
       .col-lg-12
-        p Para atraer clientes a la empresa, soportados en el portafolio de productos y su valor agregado, esta debe seguir un proceso de captación. Hay que destacar que cada empresa y cada tipo de cliente necesita un proceso adaptado a sus características y particularidades propias. A continuación,  se presenta un proceso general que sirve de modelo para aquellas empresas que quieren mantener una base de clientes sólida y en crecimiento:
-    
+        p Para atraer clientes a la empresa, soportados en el portafolio de productos y su valor agregado, esta debe seguir un proceso de captación. Hay que destacar que cada empresa y cada tipo de cliente necesita un proceso adaptado a sus características y particularidades. A continuación, se presenta un proceso general que sirve de modelo para aquellas empresas que quieren mantener una base de clientes sólida y en crecimiento:
     .row.justify-content-center.align-items-center
       .col-lg-10.mb-4
         AcordionA(tipo="a" clase-tarjeta="tarjeta tarjeta--azul")
@@ -66,7 +65,7 @@
               .col-lg-12
                 p.mb-2 Luego que se identifican los segmentos, se procede a analizarlos y se determina si son clientes potenciales y con ello, tomar una decisión sobre si se invertirá tiempo y dinero en ellos o no. Este análisis se tendrá que llevar a cabo durante todo el proceso de venta a medida que se va obteniendo más datos de este nuevo consumidor.
                 p.mb-2 La empresa debe determinar quiénes son esos clientes, cuya adquisición no solo va a aumentar la cuota de mercado a corto plazo, sino que elevará la rentabilidad y los beneficios de la empresa a largo plazo.
-                p.mb-2 Determinar el segmento de mercado es más atractivo para la empresa pues se pueden plantear diversas cuestiones como:
+                p.mb-2 Determinar qué segmento de mercado es más atractivo para la empresa, pues se pueden plantear diversas cuestiones como: 
                 ul.lista-ul--color
                   li
                     i.fas.fa-circle-check
@@ -78,7 +77,7 @@
 
                   li
                     i.fas.fa-circle-check
-                    | Mirar el tiempo de permanencia como clientes.
+                    | Tiempo de permanencia como clientes. 
 
                   li
                     i.fas.fa-circle-check
@@ -125,7 +124,7 @@
                   img.img-a.img-t.mb-4(data-aos="zoom-in-left")(src='@/assets/curso/temas/Tema2/img04.png' alt='AvatarTop')
                   .row.justify-content-center(data-aos="fade-right") 
                     .col-12.mb-4
-                      p.text-center.mb-0 #[b Establecer redes de contacto] buscar y contactar con los clientes allí donde estén, por ejemplo, un establecimiento de ropa y complementos deportivos puede financiar un club de fútbol de aficionados.
+                      p.text-center.mb-0 #[b Establecer redes de contacto] para buscar y contactar a los clientes allí donde estén; por ejemplo, un establecimiento de ropa deportiva puede financiar un club de fútbol de aficionados.
     
             .tarjeta.color.p-4
               .row.justify-content-center
@@ -133,7 +132,7 @@
                   img.img-a.img-t.mb-4(data-aos="zoom-in-left")(src='@/assets/curso/temas/Tema2/img05.png' alt='AvatarTop')
                   .row.justify-content-center(data-aos="fade-right")
                     .col-12.mb-4
-                      p.text-center.mb-0 #[b Localizarlos] en caso de que los clientes sean otros negocios se puede buscar en registros públicos, directorios, entre otros.
+                      p.text-center.mb-0 #[b Localizarlos.] En caso de que los clientes sean otros negocios, se pueden buscar en registros públicos, directorios, entre otros.
       
             
             .tarjeta.color.p-4
@@ -285,7 +284,7 @@
             img(src="@/assets/curso/temas/Tema2/img18.png", alt="")
             .text.p-2
               .row.text-center.px-1.pt-1.mt-md-4.pt-md-0.mt-lg-3.mt-xl-4
-                h4.mt-3.mb-3 C.R.M
+                h4.mt-3.mb-3 CRM
                 p.px-4 Montado para tener comunicaciones más fluidas y directas con los clientes.
       
       .col-lg-4.col-md-6.mb-3.mb-md-0

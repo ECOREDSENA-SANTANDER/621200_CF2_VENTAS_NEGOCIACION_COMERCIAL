@@ -5,7 +5,7 @@
     .titulo-principal.color-acento-contenido
       .titulo-principal__numero
         span 4
-      h1 Prospección de los clientes
+      h1 Identificación y prospección de clientes potenciales
     
     p Se puede interpretar a la prospección  como la búsqueda, localización e identificación de prospectos potenciales a través de actividades planeadas y métodos técnicos. La prospección de clientes hace parte del primer paso del proceso de la venta y consiste en encontrar posibles clientes de una empresa que tiene  grandes posibilidades de serlo. 
     p Los pasos necesarios en la realización de una venta son los siguientes: 
@@ -42,15 +42,15 @@
       .col-lg-8
         .titulo-sexto.color-secundario.mb-5
           h5 Figura 9. 
-          | Pasos que componen un prospecto 
+          | Pasos que componen el proceso de prospectación 
         img.mb-3(src='@/assets/curso/temas/Tema4/img02.svg', alt='La figura representa los pasos para conformar un prospecto mediante un diseño curvo y segmentado en cinco colores distintos. Cada paso está numerado y acompañado de un ícono representativo. El proceso inicia con la segmentación del mercado en color azul y continúa con la identificación de prospectos en morado. Luego, la definición de candidatos se encuentra en amarillo, seguida del contacto inicial en púrpura. Finalmente, la preparación de la entrevista se ubica en un tono verde oscuro. El diseño utiliza una estructura fluida y encadenada, destacando la secuencia lógica de cada etapa.')
-    p En este ciclo de referidos o prospectos, se tienen en cuenta los siguientes aspectos: 
+    p En el proceso de gestión de los prospectos obtenidos mediante referidos se tienen en cuenta los siguientes aspectos:
     
     .row.justify-content-center.align-items-center.mb-5(data-aos="fade-left")
       .col-lg-8
         .titulo-sexto.color-secundario.mb-5
           h5 Figura 10. 
-          | Ciclo de prospectos
+          | Ciclo del prospecto
         ImagenInfografica.color-acento-botones.mb-5
           template(v-slot:imagen)
             figure

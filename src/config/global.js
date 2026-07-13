@@ -95,7 +95,7 @@ export default {
       {
         nombreRuta: 'tema4',
         numero: '4',
-        titulo: 'Prospección de los clientes',
+        titulo: 'Identificación y prospección de clientes potenciales',
         desarrolloContenidos: true,
         subMenu: [],
       },
@@ -140,59 +140,7 @@ export default {
       },
     ],
   },
-  complementario: [
-    {
-      tema: '1. El cliente',
-      referencia:
-        'Quiroa, M. (2021). Cliente que es y cuál es su importancia. Economipedia. https://economipedia.com/definiciones/cliente.html',
-      tipo: 'Página web',
-      link: 'https://economipedia.com/definiciones/cliente.html',
-    },
-    {
-      tema: '1. El cliente',
-      referencia:
-        'Pursell, S. (2021). Clientes potenciales: qué son, qué tipos existen y cómo identificarlos. HobSpot. https://blog.hubspot.es/marketing/tipos-de-clientes-potenciales ',
-      tipo: 'Página web',
-      link: 'https://blog.hubspot.es/marketing/tipos-de-clientes-potenciales ',
-    },
-    {
-      tema: '1.1. Mercado de consumo',
-      referencia:
-        'Pacheco, J. (2020). Web y empresas. Mercado de Consumo (definición, características y clasificación). Web y empresa. https://www.webyempresas.com/mercado-de-consumo-definicion-caracteristicas-y-clasificacion/ ',
-      tipo: 'Página web',
-      link:
-        'https://www.webyempresas.com/mercado-de-consumo-definicion-caracteristicas-y-clasificacion/',
-    },
-    {
-      tema: '2. Relación del mercado y los clientes',
-      referencia:
-        'González, M. (2002). Concepto de mercado y sus tipos. Gestiopolis. https://www.gestiopolis.com/concepto-mercado-tipos/ ',
-      tipo: 'Página web',
-      link: 'https://www.gestiopolis.com/concepto-mercado-tipos/',
-    },
-    {
-      tema: '2.1. Atraer clientes',
-      referencia:
-        'Quiroa, M. (2020). Captación de clientes. Economipedia. https://economipedia.com/definiciones/captacion-de-clientes.html ',
-      tipo: 'Página web',
-      link: 'https://economipedia.com/definiciones/captacion-de-clientes.html',
-    },
-    {
-      tema: '3. Clasificación de clientes',
-      referencia:
-        'Bee Digital. (2020). Tipos de clientes: características y cómo tratarlos. https://www.beedigital.es/experiencia-de-cliente/tipos-de-clientes-caracteristicas/ ',
-      tipo: 'Página web',
-      link:
-        'https://www.beedigital.es/experiencia-de-cliente/tipos-de-clientes-caracteristicas/',
-    },
-    {
-      tema: '4. Prospección de los clientes',
-      referencia:
-        'Da Silva, D. (2020). Zendesk. Qué es prospección de clientes y 5 claves para implementar su estrategia. Zendesk. https://www.zendesk.com.mx/blog/que-es-prospeccion-clientes/  ',
-      tipo: 'Página web',
-      link: 'https://www.zendesk.com.mx/blog/que-es-prospeccion-clientes/',
-    },
-  ],
+  complementario: [],
   referencias: [
     {
       referencia:
@@ -226,8 +174,7 @@ export default {
     },
     {
       referencia:
-        'Promove Consultoría e formación SLNE. (2012). Atraer y fidelizar clientes. CEEI Galicia. ',
-      link: 'https://issuu.com/josevalencia/docs/atraer_y_fidelizar_clientes',
+        'Promove Consultoría e formación SLNE. (2012). Atraer y fidelizar clientes. CEEI Galicia.',
     },
     {
       referencia:
@@ -260,37 +207,92 @@ export default {
     {
       termino: 'Cliente',
       significado:
-        'es la persona o entidad que accede a un producto o servicio por medio de una transacción financiera (dinero) u otro medio de pago.',
+        'Persona natural o jurídica que adquiere un producto o servicio mediante una transacción económica para satisfacer una necesidad o expectativa.',
     },
     {
-      termino: 'Fidelizar',
+      termino: 'Cliente potencial',
       significado:
-        'una acción dirigida a conseguir que los clientes mantengan relaciones estables y continuadas con la empresa a lo largo del tiempo (Hatch, 2016).',
+        'Persona o entidad que reúne las características del mercado objetivo y que tiene posibilidades de convertirse en cliente.',
+    },
+    {
+      termino: 'Contacto',
+      significado:
+        'Persona con la que la empresa establece una primera comunicación para obtener información, presentar una oferta o iniciar una relación comercial.',
+    },
+    {
+      termino: 'Entrevista comercial',
+      significado:
+        'Reunión entre el vendedor y el prospecto para identificar necesidades, presentar soluciones y generar oportunidades de negocio.',
+    },
+    {
+      termino: 'Fidelización',
+      significado:
+        'Conjunto de estrategias orientadas a fortalecer la relación con los clientes para fomentar compras repetidas y relaciones comerciales de largo plazo (Hatch, 2018).',
+    },
+    {
+      termino: '<i>Lead</i>',
+      significado:
+        'Contacto que ha manifestado interés inicial en un producto o servicio y que puede convertirse en prospecto tras un proceso de calificación.',
     },
     {
       termino: 'Mercado de consumo',
       significado:
-        'se compone por todas aquellas personas que adquieren o compran bienes y servicios y luego lo utilizan para  satisfacer sus necesidades finales.',
+        'Conjunto de personas que adquieren bienes o servicios para satisfacer necesidades personales o familiares.',
+    },
+    {
+      termino: 'Mercado objetivo',
+      significado:
+        'Segmento específico del mercado al que la empresa dirige sus esfuerzos de mercadeo y ventas por presentar mayor probabilidad de compra.',
     },
     {
       termino: 'Modelo de negocio',
       significado:
-        'es una herramienta previa al plan de negocio que te permitirá definir con claridad qué vas a ofrecer al mercado, cómo lo vas a hacer, a quién se lo vas a vender, cómo se lo vas a vender y de qué forma vas a generar ingresos. (Redacción emprendedores, 2021).',
+        'Herramienta que describe la propuesta de valor de una organización, el mercado al que se dirige, la forma en que genera ingresos y los recursos necesarios para operar (Redacción Emprendedores, 2021).',
+    },
+    {
+      termino: 'Necesidad del cliente',
+      significado:
+        'Problema, deseo o requerimiento que puede satisfacerse mediante un producto o servicio ofrecido por la empresa.',
     },
     {
       termino: 'Prospecto',
       significado:
-        'es un cliente potencial que encaja con las características del cliente ideal, dispone de los medios para comprar (dinero) y está autorizado a tomar decisiones de compra.',
+        'Cliente potencial que cumple con el perfil definido por la empresa, tiene capacidad de compra y posibilidad de tomar o influir en la decisión de adquisición.',
     },
     {
-      termino: 'Retener',
+      termino: 'Prospección de clientes',
       significado:
-        'sucede cuando una empresa planifica un conjunto de estrategias de fidelización y acciones con la finalidad de mantener a los clientes actuales a largo plazo.',
+        'Proceso sistemático de identificar, seleccionar, calificar y contactar clientes potenciales con el propósito de generar oportunidades de venta.',
+    },
+    {
+      termino: 'Referido',
+      significado:
+        'Cliente potencial recomendado por un cliente, aliado o contacto, lo que facilita el establecimiento de una relación comercial.',
+    },
+    {
+      termino: 'Retención de clientes',
+      significado:
+        'Estrategias y acciones implementadas para mantener a los clientes actuales, promover su permanencia y aumentar su valor para la organización.',
     },
     {
       termino: 'Segmento de mercado',
       significado:
-        'es un grupo de consumidores, en su mayoría homogéneo, ya sea por determinadas características o por sus necesidades, los cuales son identificados como un mercado que presenta deseos o hábitos de compra parecidas y que potencialmente responderían similar a la estrategia desarrollada por el <i>mix</i> de <i>marketing</i>. (Quiroa, 2020)',
+        'Grupo de consumidores que comparten características, necesidades o comportamientos similares, lo que permite diseñar estrategias comerciales específicas (Quiroa, 2020).',
+    },
+    {
+      termino: 'Referido',
+      significado:
+        'Cliente potencial recomendado por un cliente, aliado o contacto, lo que facilita el establecimiento de una relación comercial.',
+    },
+    {
+      termino: 'Retención de clientes',
+      significado:
+        'Estrategias y acciones implementadas para mantener a los clientes actuales, promover su permanencia y aumentar su valor para la organización.',
+    },
+    {
+      termino: 'Segmento de mercado',
+      significado:
+        'Grupo de consumidores que comparten características, necesidades o comportamientos similares, lo que permite diseñar estrategias comerciales específicas (Quiroa, 2020).',
     },
   ],
   creditos: [

@@ -54,9 +54,10 @@
         .titulo-sexto.color-secundario.mb-4
           h5 Figura 2. 
           | Conceptos de mercado
-        img(src='@/assets/curso/temas/Tema1/img03.svg', alt='Se muestran los conceptos de mercado: Mercado potencial: es el conjunto de clientes que manifiesta un grado suficiente de interés en una determinada oferta. Mercado total: Es el conjunto de todos los compradores reales y potenciales de un producto. Mercado disponible: Es el conjunto de consumidores que tiene interés, ingresos y acceso a una oferta de mercado específica. Tamaño del mercado: Es el número de compradores que pudieran existir para una oferta de mercado en particular. Mercado disponible calificado: Es el conjunto de consumidores que tiene interés, ingresos, acceso y cualidades que concuerdan con la oferta de mercado en particular.') 
-    p Cada mercado debe conocer sus clientes, la manera cómo decide comprar, cómo convertirlo de #[em shopper] a #[em buyer] y monetizarlo, etc. Este cliente sigue un proceso racional de compra, de acuerdo como lo indica Promove Consultoría e Formación, SLNE (2012, p. 15). 
-    p A continuación, se presenta el proceso:  
+        img(src='@/assets/curso/temas/Tema1/img03.svg', alt='Se presentan los conceptos de mercado potencial, mercado total, mercado disponible, tamaño del mercado y mercado disponible calificado, organizados de forma secuencial según el nivel de interés, acceso, capacidad de compra y cumplimiento de las características requeridas para una oferta específica.') 
+    p.mb-0 Las organizaciones deben conocer a sus clientes, la manera en que deciden comprar, cómo convertirlos de shopper a buyer y monetizarlos, etc.  Este cliente sigue un proceso racional de compra, de acuerdo como lo indica Promove Consultoría e Formación, SLNE (2012, p. 15). 
+    p.mb-5 A continuación, se presenta el proceso:  
+
     
     .row.justify-content-center.align-items-center.mb-5(data-aos="fade-left")
       .col-lg-10
@@ -82,8 +83,8 @@
       .col-lg-4.col-md-6.col-8
         img.py-2(src='@/assets/curso/temas/Tema1/img06.png')
       .col-lg-8
-        p El mercado de consumo se compone por todas aquellas personas que adquieren o compran bienes y servicios y luego lo utilizan para satisfacer sus necesidades finales. Tiene un papel importante en el desarrollo socioeconómico de una economía, pues es un indicador de ese estado de bienestar, producto de empleos, ingresos y productividad. Entre más crece el empleo hay mayor poder adquisitivo y por ende, las personas compran más, influyendo en el funcionamiento de otros mercados.
-        p Este mercado, del cual las personas compran bienes y servicios para su uso personal o familiar, tiene comportamientos y decisiones de compra en los consumidores: ¿dónde?, ¿cómo?, ¿cuándo compran?, ¿qué cantidad? y ¿por qué lo hacen? Estos son los interrogantes que a las empresas les interesa conocer para presentar una oferta que le genere valor al cliente.
+        p.mb-3 El mercado de consumo se compone por todas aquellas personas que adquieren o compran bienes y servicios y luego lo utilizan para satisfacer sus necesidades finales. Tiene un papel importante en el desarrollo socioeconómico de una economía, pues es un indicador de ese estado de bienestar, producto de empleos, ingresos y productividad. Entre más crece el empleo, hay mayor poder adquisitivo y, por ende, las personas compran más, influyendo en el funcionamiento de otros mercados.
+        p.mb-3 En este mercado, las personas adquieren bienes y servicios para su uso personal o familiar. Tiene comportamientos y decisiones de compra en los consumidores: ¿dónde?, ¿cómo?, ¿cuándo compran?, ¿qué cantidad? y ¿por qué lo hacen? Estos son los interrogantes que a las empresas les interesa conocer para presentar una oferta que le genere valor al cliente.
         .cajon.color-secundario.p-4.mb-4
           p Las empresas desean saber con qué frecuencia sus consumidores van de visita a una tienda, a un restaurante y que tanto consumen o utilizan sus productos. En los departamentos de mercadeo las empresas buscan la manera de distinguir a los usuarios ligeros, medios o pesados, a los cuales después se les llegará a través de la publicidad.
 
@@ -102,42 +103,26 @@
         img.py-3(src='@/assets/curso/temas/Tema1/img07.png')
       .col-lg-8
         SlyderF(columnas="col-lg-4 col-xl-5 col-md-6").mb-5
-          .tarjeta.bg-color-9.p-4
-            .row.justify-content-center
-              .col-12
-                img.img-a.img-t.mb-4(data-aos="zoom-in-left")(src='@/assets/curso/temas/Tema1/ico1.png' alt='AvatarTop')
-                .row.justify-content-center
-                  .col-10.mb-4
-                    .bg33
-                      h4.text-center Consumo inmediato
-                    .py-2
-                    h4.mb-0 Mercados de productos de consumo inmediato
-                p(data-aos="fade-right") La adquisición de productos por los compradores individuales o familiares se realiza con gran frecuencia, siendo generalmente consumidos al poco tiempo de tenerlos. Es el caso de los alimentos perecederos.
+          .tarjeta.p-4.shadow-cus
+              img.img-a.img-t.mb-5(src='@/assets/curso/temas/Tema1/ico1.png')
+              .bg33.wcus-1.m-auto.mb-4
+                h4.text-center.px-3 Consumo inmediato
+              h4.mb-3 Mercados de productos de consumo inmediato
+              p.mb-0 La adquisición de productos por los compradores individuales o familiares se realiza con gran frecuencia, siendo generalmente consumidos al poco tiempo de tenerlos. Es el caso de los alimentos perecederos.
           
-          .tarjeta.bg-color-9.p-4
-            .row.justify-content-center
-              .col-12
-                img.img-a.img-t.mb-4(data-aos="zoom-in-left")(src='@/assets/curso/temas/Tema1/ico2.png' alt='AvatarTop')
-                .row.justify-content-center
-                  .col-10.mb-4
-                    .bg33
-                      h4.text-center Consumo duradero
-                    .py-2
-                    h4.mb-0 Mercados de productos de consumo duradero
-
-                p(data-aos="fade-right") Son todos aquellos productos adquiridos, que se utilizan a lo largo de diversos períodos de tiempo, incluso cuando ya han perdido su utilidad o se han desactualizado como es el caso de los electrodomésticos, por ejemplo.
+          .tarjeta.p-4.shadow-cus
+              img.img-a.img-t.mb-5(src='@/assets/curso/temas/Tema1/ico2.png')
+              .bg33.wcus-1.m-auto.mb-4
+                h4.text-center.px-3 Consumo duradero
+              h4.mb-3 Mercados de productos de consumo duradero
+              p.mb-0 Son aquellos productos adquiridos para ser utilizados durante un período prolongado. Se caracterizan por tener una vida útil extensa y no consumirse con un solo uso. Es el caso de los electrodomésticos, los muebles o los vehículos. 
           
-          .tarjeta.bg-color-9.p-4
-            .row.justify-content-center
-              .col-12
-                img.img-a.img-t.mb-4(data-aos="zoom-in-left")(src='@/assets/curso/temas/Tema1/ico3.png' alt='AvatarTop')
-                .row.justify-content-center
-                  .col-10.mb-4
-                    .bg33
-                      h4.text-center Servicios
-                    .py-2
-                    h4.mb-0 Mercados de servicios
-                p(data-aos="fade-right") Están constituidos por aquellos mercados en los que los compradores individuales o familiares adquieren bienes intangibles para su satisfacción presente o futura. Un ejemplo de ellos es la salud.
+          .tarjeta.p-4.shadow-cus
+              img.img-a.img-t.mb-5(src='@/assets/curso/temas/Tema1/ico3.png')
+              .bg33.wcus-1.m-auto.mb-4
+                h4.text-center.px-3 Servicios
+              h4.mb-3 Mercados de servicios
+              p.mb-0 Están constituidos por aquellos mercados en los que los compradores individuales o familiares adquieren bienes intangibles para su satisfacción presente o futura. Un ejemplo de ellos es la salud.
           
     separador
     #t_1_2.titulo-segundo.mb-4
@@ -152,7 +137,7 @@
           .row
             .col-md-8.mb-4.mb-md-0
               h3 Compradores industriales
-              p Son aquellos que adquieren bienes y servicios para la obtención de productos intangibles que son objeto de comercialización posterior. Ejemplo: empresas de automóviles.
+              p Son aquellos que adquieren bienes y servicios para la producción o transformación de otros bienes y servicios destinados posteriormente a su comercialización. Ejemplo: empresas fabricantes de automóviles. 
             .col-md-3
               figure
                 img(src='@/assets/curso/temas/Tema1/1.png' alt='AvatarTop')
@@ -164,8 +149,7 @@
                 img(src='@/assets/curso/temas/Tema1/2.png', alt='Texto que describa la imagen')
             .col-md-8
               h3 Compradores institucionales
-              p Son aquellos que adquieren bienes y servicios para la obtención de productos generalmente intangibles, la mayoría de los cuales no son objeto de comercialización. Es el caso de universidades, fuerzas armadas, entre otros.
-              
+              p Son aquellos que adquieren bienes y servicios para desarrollar sus actividades institucionales y prestar servicios a la comunidad, sin perseguir fines de comercialización. 
 
           .row
             .col-md-8.mb-4.mb-md-0
@@ -218,7 +202,7 @@
         .titulo-sexto.color-secundario.mb-4
           h5 Figura 5. 
           | Tipos de revendedores
-        img(src='@/assets/curso/temas/Tema1/img12.svg', alt='Se muestran los tipos de revendedores, como minoristas, mayoristas, corredores y buhoneros.')
+        img(src='@/assets/curso/temas/Tema1/img12.svg', alt='Clasificación de los principales tipos de revendedores: minoristas, mayoristas, corredores y buhoneros.')
     
     separador
     #t_1_4.titulo-segundo.mb-4
