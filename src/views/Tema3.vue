@@ -28,7 +28,7 @@
                 h3.mb-0.text-center Clientes potenciales
           p.mb-4.text-white Los clientes potenciales son aquellos que probablemente adquirirán alguno de los productos o servicios que son ofertados por la empresa, pero aún no deciden la compra. Para que una empresa logre el crecimiento esperado debe procurar atraer estos clientes y lograr así aumentar su cuota de mercado o participación en el mismo. Para atraer nuevos clientes la empresa debe tener un producto diferenciado que genere valor para los clientes y se diferencie y supere lo que ofrece la competencia.
 
-    p De acuerdo con la Pursell (s.f.), de la revista HupSpot, los clientes potenciales se componen en:
+    p De acuerdo con la Pursell (2021), de la revista HubSpot, los clientes potenciales se componen en:
     
     .row.justify-content-center.align-items-center.mb-5(data-aos="fade-left")
       .col-lg-12

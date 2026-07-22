@@ -20,178 +20,558 @@ export default {
       tema: 'Prospección de cliente',
       titulo: 'Cuestionario',
       introduccion:
-        '<b> Objetivo:</b> Apropiarse de los conocimientos asociados a la prospección de clientes, así como su tipología, los mercados en los cuales se desenvuelven y las estrategias que se utilizan para atraerlos, retenerlos y fidelizarlos.',
-      barajarPreguntas: false,
+        '<b> Objetivo:</b> apropiarse de los conocimientos asociados a la prospección de clientes, así como su tipología, los mercados en los cuales se desenvuelven y las estrategias que se utilizan para atraerlos, retenerlos y fidelizarlos.',
+      barajarPreguntas: true,
       preguntas: [
         {
           id: 1,
-          texto:
-            'Es el principal objetivo hacia donde la empresa realiza su mayor esfuerzo, hacía él todos los planes y las estrategias de mercadeo deben enfocarse, desarrollarse e implementarse en función de ese cliente.',
+          texto: '¿Qué es la prospección de clientes?',
           imagen: require('@/assets/actividad/imagen1.png'),
           barajarRespuestas: true,
           opciones: [
-            { id: 'a', texto: 'El cliente', esCorrecta: true },
-            { id: 'b', texto: 'Las empresas', esCorrecta: false },
-            { id: 'c', texto: 'Mercados de gobierno', esCorrecta: false },
-            { id: 'd', texto: 'El mercado de consumo', esCorrecta: false },
+            {
+              id: 'a',
+              texto: 'El proceso de identificar y atraer potenciales clientes.',
+              esCorrecta: true,
+            },
+            {
+              id: 'b',
+              texto: 'La venta directa de productos.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'El análisis financiero de una empresa.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'La distribución de mercancías.',
+              esCorrecta: false,
+            },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_correcto:
+            'Se evidencia un adecuado dominio de los fundamentos de la Prospección de clientes.',
+          mensaje_incorrecto:
+            'Se recomienda revisar nuevamente los contenidos del componente formativo Prospección de clientes.',
         },
         {
           id: 2,
           texto:
-            'Se compone por todas aquellas personas que adquieren o compran bienes y servicios y luego lo utilizan para satisfacer sus necesidades finales. Tiene un papel importante en el desarrollo socioeconómico de una economía.',
+            '¿Cuál es el objetivo principal de la prospección de clientes?',
           imagen: require('@/assets/actividad/imagen2.png'),
           barajarRespuestas: true,
           opciones: [
-            { id: 'a', texto: 'El cliente', esCorrecta: false },
-            { id: 'b', texto: 'Las empresas', esCorrecta: false },
-            { id: 'c', texto: 'Mercados de gobierno', esCorrecta: false },
-            { id: 'd', texto: 'El mercado de consumo', esCorrecta: true },
+            {
+              id: 'a',
+              texto: 'Reducir los costos de producción.',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto:
+                'Generar oportunidades de venta mediante la identificación de posibles compradores.',
+              esCorrecta: true,
+            },
+            { id: 'c', texto: 'Diseñar nuevos productos.', esCorrecta: false },
+            { id: 'd', texto: 'Controlar la competencia.', esCorrecta: false },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_correcto:
+            'Se evidencia un adecuado dominio de los fundamentos de la Prospección de clientes.',
+          mensaje_incorrecto:
+            'Se recomienda revisar nuevamente los contenidos del componente formativo Prospección de clientes.',
         },
         {
           id: 3,
-          texto:
-            'Está formado por las instituciones del gobierno o del sector público que adquieren bienes o servicios para llevar a cabo sus principales funciones.',
+          texto: '¿Qué caracteriza al mercado de consumo?',
           imagen: require('@/assets/actividad/imagen3.png'),
-          barajarRespuestas: false,
+          barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Los clientes de los mercados industriales',
+              texto: 'Compra productos para revenderlos.',
               esCorrecta: false,
             },
-            { id: 'b', texto: 'Las empresas', esCorrecta: false },
-            { id: 'c', texto: 'Mercados de gobierno', esCorrecta: true },
-            { id: 'd', texto: 'El mercado de consumo', esCorrecta: false },
+            {
+              id: 'b',
+              texto: 'Compra productos para procesos industriales.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'Compra bienes o servicios para uso personal o familiar.',
+              esCorrecta: true,
+            },
+            {
+              id: 'd',
+              texto: 'Compra exclusivamente para exportar.',
+              esCorrecta: false,
+            },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_correcto:
+            'Se evidencia un adecuado dominio de los fundamentos de la Prospección de clientes.',
+          mensaje_incorrecto:
+            'Se recomienda revisar nuevamente los contenidos del componente formativo Prospección de clientes.',
         },
         {
           id: 4,
-          texto:
-            'Son todas las empresas que demandan los satisfactores que produce una empresa, con el propósito de usarlos en su proceso de producción.',
+          texto: '¿Quiénes participan en los mercados industriales?',
           imagen: require('@/assets/actividad/imagen4.png'),
-          barajarRespuestas: false,
+          barajarRespuestas: true,
           opciones: [
+            { id: 'a', texto: 'Consumidores finales.', esCorrecta: false },
+            { id: 'b', texto: 'Instituciones educativas.', esCorrecta: false },
             {
-              id: 'a',
-              texto: 'Los clientes de los mercados industriales',
+              id: 'c',
+              texto: 'Organizaciones sin ánimo de lucro.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto:
+                'Empresas que adquieren productos para producir otros bienes o servicios.',
               esCorrecta: true,
             },
-            { id: 'b', texto: 'Mercados de gobierno', esCorrecta: false },
-            { id: 'c', texto: 'El mercado de consumo', esCorrecta: false },
-            { id: 'd', texto: 'El cliente', esCorrecta: false },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_correcto:
+            'Se evidencia un adecuado dominio de los fundamentos de la Prospección de clientes.',
+          mensaje_incorrecto:
+            'Se recomienda revisar nuevamente los contenidos del componente formativo Prospección de clientes.',
         },
         {
           id: 5,
           texto:
-            'El Marketing relacional de acuerdo con Gronroos (1994), es el “conjunto de relaciones a corto plazo que las empresas pretenden crear, mantener y fomentar con clientes, con el objetivo de alcanzar una relación sólida y duradera.',
+            '¿Cuál es la función principal de los mercados de revendedores?',
           imagen: require('@/assets/actividad/imagen1.png'),
-          barajarRespuestas: false,
+          barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Verdadero',
+              texto:
+                'Comprar productos para revenderlos a otros consumidores o empresas.',
+              esCorrecta: true,
+            },
+            {
+              id: 'b',
+              texto: 'Fabricar productos terminados.',
               esCorrecta: false,
             },
-            { id: 'b', texto: 'Falso', esCorrecta: true },
+            { id: 'c', texto: 'Exportar mercancías.', esCorrecta: false },
+            {
+              id: 'd',
+              texto: 'Regular los precios del mercado.',
+              esCorrecta: false,
+            },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_correcto:
+            'Se evidencia un adecuado dominio de los fundamentos de la Prospección de clientes.',
+          mensaje_incorrecto:
+            'Se recomienda revisar nuevamente los contenidos del componente formativo Prospección de clientes.',
         },
         {
           id: 6,
-          texto:
-            'Los negocios internacionales involucran el proceso de exportación e importación de algún producto entre países o naciones.',
-          imagen: require('@/assets/actividad/imagen2.png'),
-          barajarRespuestas: false,
+          texto: '¿Qué caracteriza a los mercados de gobierno?',
+          imagen: require('@/assets/actividad/imagen1.png'),
+          barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Verdadero',
+              texto: 'Compran productos para consumo personal.',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto: 'Comercializan productos internacionales.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto:
+                'Adquieren bienes y servicios para satisfacer necesidades gubernamentales.',
               esCorrecta: true,
             },
-            { id: 'b', texto: 'Falso', esCorrecta: false },
+            {
+              id: 'd',
+              texto: 'Revenden productos a empresas.',
+              esCorrecta: false,
+            },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_correcto:
+            'Se evidencia un adecuado dominio de los fundamentos de la Prospección de clientes.',
+          mensaje_incorrecto:
+            'Se recomienda revisar nuevamente los contenidos del componente formativo Prospección de clientes.',
         },
         {
           id: 7,
-          texto:
-            'Para atraer clientes a la empresa, soportados en el portafolio de productos y su valor agregado, esta debe seguir un proceso de captación.',
-          imagen: require('@/assets/actividad/imagen3.png'),
-          barajarRespuestas: false,
+          texto: '¿Qué son los mercados internacionales?',
+          imagen: require('@/assets/actividad/imagen2.png'),
+          barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Verdadero',
+              texto: 'Mercados que operan únicamente dentro de una ciudad.',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto:
+                'Mercados donde se compran y venden productos en un contexto global.',
               esCorrecta: true,
             },
-            { id: 'b', texto: 'Falso', esCorrecta: false },
+            {
+              id: 'c',
+              texto: 'Mercados exclusivos para gobiernos.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Mercados destinados a consumidores locales.',
+              esCorrecta: false,
+            },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_correcto:
+            'Se evidencia un adecuado dominio de los fundamentos de la Prospección de clientes.',
+          mensaje_incorrecto:
+            'Se recomienda revisar nuevamente los contenidos del componente formativo Prospección de clientes.',
         },
         {
           id: 8,
-          texto:
-            'Las empresas no deben gastar su tiempo en revisar aquellos clientes que compraron y que no volvieron hacerlo por alguna razón.',
-          imagen: require('@/assets/actividad/imagen4.png'),
-          barajarRespuestas: false,
+          texto: '¿Cuál es una estrategia utilizada para atraer clientes?',
+          imagen: require('@/assets/actividad/imagen3.png'),
+          barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Verdadero',
+              texto: 'Reducir la calidad del servicio.',
               esCorrecta: false,
             },
-            { id: 'b', texto: 'Falso', esCorrecta: true },
+            { id: 'b', texto: 'Eliminar la publicidad.', esCorrecta: false },
+            {
+              id: 'c',
+              texto:
+                'Aplicar acciones de <i>marketing</i>, publicidad y promoción.',
+              esCorrecta: true,
+            },
+            {
+              id: 'd',
+              texto: 'Limitar la comunicación con los clientes.',
+              esCorrecta: false,
+            },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_correcto:
+            'Se evidencia un adecuado dominio de los fundamentos de la Prospección de clientes.',
+          mensaje_incorrecto:
+            'Se recomienda revisar nuevamente los contenidos del componente formativo Prospección de clientes.',
         },
         {
           id: 9,
-          texto:
-            'Los clientes potenciales son aquellos que adquirirán alguno de los productos o servicios que son ofertados por la empresa, pero aún no deciden la compra. ',
-          imagen: require('@/assets/actividad/imagen1.png'),
-          barajarRespuestas: false,
+          texto: '¿Qué acción contribuye a retener clientes?',
+          imagen: require('@/assets/actividad/imagen4.png'),
+          barajarRespuestas: true,
           opciones: [
+            { id: 'a', texto: 'Ignorar sus necesidades.', esCorrecta: false },
             {
-              id: 'a',
-              texto: 'Verdadero',
+              id: 'b',
+              texto: 'Incrementar los tiempos de respuesta.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'Suspender los canales de atención.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto:
+                'Implementar programas de lealtad y mantener una comunicación constante.',
               esCorrecta: true,
             },
-            { id: 'b', texto: 'Falso', esCorrecta: false },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_correcto:
+            'Se evidencia un adecuado dominio de los fundamentos de la Prospección de clientes.',
+          mensaje_incorrecto:
+            'Se recomienda revisar nuevamente los contenidos del componente formativo Prospección de clientes.',
         },
         {
           id: 10,
-          texto:
-            ' Los clientes de compra frecuente asisten a comprar en periodos irregulares; los de compra habitual son menos asiduos, pero tienen alta probabilidad de convertirse en compradores frecuentes; y los de compra ocasional son aquellos que acostumbran a hacer visitas regulares y su interés se enfoca en las promociones u ofertas. ',
-          imagen: require('@/assets/actividad/imagen2.png'),
-          barajarRespuestas: false,
+          texto: '¿Qué significa fidelizar clientes?',
+          imagen: require('@/assets/actividad/imagen1.png'),
+          barajarRespuestas: true,
+          opciones: [
+            { id: 'a', texto: 'Incrementar los precios.', esCorrecta: false },
+            {
+              id: 'b',
+              texto: 'Reducir la oferta de productos.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto:
+                'Lograr que los clientes mantengan una relación duradera con la empresa.',
+              esCorrecta: true,
+            },
+            {
+              id: 'd',
+              texto: 'Limitar la atención posventa.',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto:
+            'Se evidencia un adecuado dominio de los fundamentos de la Prospección de clientes.',
+          mensaje_incorrecto:
+            'Se recomienda revisar nuevamente los contenidos del componente formativo Prospección de clientes.',
+        },
+        {
+          id: 11,
+          texto: '¿Quiénes son los clientes potenciales?',
+          imagen: require('@/assets/actividad/imagen1.png'),
+          barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Verdadero',
+              texto:
+                'Personas que muestran interés en un producto o servicio, pero aún no han comprado.',
+              esCorrecta: true,
+            },
+            {
+              id: 'b',
+              texto: 'Clientes que compran regularmente.',
               esCorrecta: false,
             },
-            { id: 'b', texto: 'Falso', esCorrecta: true },
+            {
+              id: 'c',
+              texto: 'Clientes que dejaron de comprar hace años.',
+              esCorrecta: false,
+            },
+            { id: 'd', texto: 'Clientes corporativos.', esCorrecta: false },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_correcto:
+            'Se evidencia un adecuado dominio de los fundamentos de la Prospección de clientes.',
+          mensaje_incorrecto:
+            'Se recomienda revisar nuevamente los contenidos del componente formativo Prospección de clientes.',
+        },
+        {
+          id: 12,
+          texto: '¿Quiénes son los clientes actuales?',
+          imagen: require('@/assets/actividad/imagen2.png'),
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'Personas que nunca han comprado.',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto: 'Personas interesadas en comprar en el futuro.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto:
+                'Clientes que han realizado compras y permanecen activos en el mercado.',
+              esCorrecta: true,
+            },
+            { id: 'd', texto: 'Clientes inactivos.', esCorrecta: false },
+          ],
+          mensaje_correcto:
+            'Se evidencia un adecuado dominio de los fundamentos de la Prospección de clientes.',
+          mensaje_incorrecto:
+            'Se recomienda revisar nuevamente los contenidos del componente formativo Prospección de clientes.',
+        },
+        {
+          id: 13,
+          texto: '¿Qué caracteriza a los clientes leales?',
+          imagen: require('@/assets/actividad/imagen3.png'),
+          barajarRespuestas: true,
+          opciones: [
+            { id: 'a', texto: 'Compran una sola vez.', esCorrecta: false },
+            {
+              id: 'b',
+              texto:
+                'Compran regularmente y presentan un alto nivel de satisfacción.',
+              esCorrecta: true,
+            },
+            {
+              id: 'c',
+              texto: 'No muestran interés en la empresa.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Realizan compras esporádicas.',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto:
+            'Se evidencia un adecuado dominio de los fundamentos de la Prospección de clientes.',
+          mensaje_incorrecto:
+            'Se recomienda revisar nuevamente los contenidos del componente formativo Prospección de clientes.',
+        },
+        {
+          id: 14,
+          texto: '¿Quiénes son los clientes inactivos?',
+          imagen: require('@/assets/actividad/imagen4.png'),
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'Personas interesadas en adquirir productos.',
+              esCorrecta: false,
+            },
+            { id: 'b', texto: 'Clientes frecuentes.', esCorrecta: false },
+            { id: 'c', texto: 'Clientes potenciales.', esCorrecta: false },
+            {
+              id: 'd',
+              texto:
+                'Personas que compraron anteriormente, pero no lo han hecho recientemente.',
+              esCorrecta: true,
+            },
+          ],
+          mensaje_correcto:
+            'Se evidencia un adecuado dominio de los fundamentos de la Prospección de clientes.',
+          mensaje_incorrecto:
+            'Se recomienda revisar nuevamente los contenidos del componente formativo Prospección de clientes.',
+        },
+        {
+          id: 15,
+          texto: '¿Cuál es el primer paso en el proceso de prospección?',
+          imagen: require('@/assets/actividad/imagen1.png'),
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'Identificación de prospectos.',
+              esCorrecta: true,
+            },
+            { id: 'b', texto: 'Conversión de clientes.', esCorrecta: false },
+            { id: 'c', texto: 'Cierre de ventas.', esCorrecta: false },
+            { id: 'd', texto: 'Facturación.', esCorrecta: false },
+          ],
+          mensaje_correcto:
+            'Se evidencia un adecuado dominio de los fundamentos de la Prospección de clientes.',
+          mensaje_incorrecto:
+            'Se recomienda revisar nuevamente los contenidos del componente formativo Prospección de clientes.',
+        },
+        {
+          id: 16,
+          texto: '¿Qué implica la calificación de prospectos?',
+          imagen: require('@/assets/actividad/imagen1.png'),
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'Diseñar campañas publicitarias.',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto:
+                'Evaluar cuáles prospectos tienen mayor probabilidad de convertirse en clientes.',
+              esCorrecta: true,
+            },
+            {
+              id: 'c',
+              texto: 'Realizar estudios financieros.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Organizar eventos comerciales.',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto:
+            'Se evidencia un adecuado dominio de los fundamentos de la Prospección de clientes.',
+          mensaje_incorrecto:
+            'Se recomienda revisar nuevamente los contenidos del componente formativo Prospección de clientes.',
+        },
+        {
+          id: 17,
+          texto: '¿Qué ocurre durante la etapa de enfoque y contacto inicial?',
+          imagen: require('@/assets/actividad/imagen2.png'),
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'Se realiza la venta definitiva.',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto: 'Se elimina al prospecto del proceso.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto:
+                'Se establece el primer acercamiento con el posible cliente.',
+              esCorrecta: true,
+            },
+            { id: 'd', texto: 'Se realiza la facturación.', esCorrecta: false },
+          ],
+          mensaje_correcto:
+            'Se evidencia un adecuado dominio de los fundamentos de la Prospección de clientes.',
+          mensaje_incorrecto:
+            'Se recomienda revisar nuevamente los contenidos del componente formativo Prospección de clientes.',
+        },
+        {
+          id: 18,
+          texto: '¿Cuál es el propósito del seguimiento y conversión?',
+          imagen: require('@/assets/actividad/imagen3.png'),
+          barajarRespuestas: true,
+          opciones: [
+            { id: 'a', texto: 'Diseñar productos nuevos.', esCorrecta: false },
+            {
+              id: 'b',
+              texto: 'Reducir la inversión publicitaria.',
+              esCorrecta: false,
+            },
+            { id: 'c', texto: 'Clasificar mercados.', esCorrecta: false },
+            {
+              id: 'd',
+              texto:
+                'Transformar prospectos en clientes mediante acciones de acompañamiento.',
+              esCorrecta: true,
+            },
+          ],
+          mensaje_correcto:
+            'Se evidencia un adecuado dominio de los fundamentos de la Prospección de clientes.',
+          mensaje_incorrecto:
+            'Se recomienda revisar nuevamente los contenidos del componente formativo Prospección de clientes.',
+        },
+        {
+          id: 19,
+          texto: '¿Cuál de las siguientes es una herramienta de prospección?',
+          imagen: require('@/assets/actividad/imagen4.png'),
+          barajarRespuestas: true,
+          opciones: [
+            { id: 'a', texto: 'Inventario físico.', esCorrecta: false },
+            { id: 'b', texto: 'Balance general.', esCorrecta: false },
+            { id: 'c', texto: 'Redes sociales.', esCorrecta: true },
+            { id: 'd', texto: 'Nómina de empleados.', esCorrecta: false },
+          ],
+          mensaje_correcto:
+            'Se evidencia un adecuado dominio de los fundamentos de la Prospección de clientes.',
+          mensaje_incorrecto:
+            'Se recomienda revisar nuevamente los contenidos del componente formativo Prospección de clientes.',
+        },
+        {
+          id: 20,
+          texto:
+            '¿Qué técnica permite contactar prospectos mediante mensajes enviados a través del correo electrónico?',
+          imagen: require('@/assets/actividad/imagen1.png'),
+          barajarRespuestas: true,
+          opciones: [
+            { id: 'a', texto: 'Investigación de mercado.', esCorrecta: false },
+            { id: 'b', texto: 'Eventos y ferias.', esCorrecta: false },
+            { id: 'c', texto: 'Redes sociales.', esCorrecta: false },
+            { id: 'd', texto: 'Email <i>marketing</i>.', esCorrecta: true },
+          ],
+          mensaje_correcto:
+            'Se evidencia un adecuado dominio de los fundamentos de la Prospección de clientes.',
+          mensaje_incorrecto:
+            'Se recomienda revisar nuevamente los contenidos del componente formativo Prospección de clientes.',
         },
       ],
       mensaje_final_aprobado: '¡Excelente! Ha superado la actividad.',

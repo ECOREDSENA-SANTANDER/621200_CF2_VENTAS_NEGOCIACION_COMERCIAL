@@ -16,7 +16,7 @@
           h5 Figura 8. 
           | Ciclo del proceso de la venta 
         img.mb-3(src='@/assets/curso/temas/Tema4/img01.svg', alt='Se muestra el proceso del ciclo de ventas, que comienza con la prospección, seguida del acercamiento, la entrevista, la demostración, la negociación y el cierre. Posteriormente, continúa con el servicio posventa y la construcción de relaciones a largo plazo, buscando siempre la validación y las referencias de parte de los clientes.')
-    p El siguiente video profundiza un poco más sobre el proceso de prospección: 
+    p El siguiente video profundiza un poco más sobre el proceso de prospección.
     
     figure
       .video
@@ -42,7 +42,7 @@
       .col-lg-8
         .titulo-sexto.color-secundario.mb-5
           h5 Figura 9. 
-          | Pasos que componen el proceso de prospectación 
+          | Pasos que componen el proceso de prospección 
         img.mb-3(src='@/assets/curso/temas/Tema4/img02.svg', alt='La figura representa los pasos para conformar un prospecto mediante un diseño curvo y segmentado en cinco colores distintos. Cada paso está numerado y acompañado de un ícono representativo. El proceso inicia con la segmentación del mercado en color azul y continúa con la identificación de prospectos en morado. Luego, la definición de candidatos se encuentra en amarillo, seguida del contacto inicial en púrpura. Finalmente, la preparación de la entrevista se ubica en un tono verde oscuro. El diseño utiliza una estructura fluida y encadenada, destacando la secuencia lógica de cada etapa.')
     p En el proceso de gestión de los prospectos obtenidos mediante referidos se tienen en cuenta los siguientes aspectos:
     

@@ -14,7 +14,7 @@
         p El #[em marketing] relacional de acuerdo con Gronroos (1994), es el “conjunto de relaciones a largo plazo que las empresas pretenden crear, mantener y fomentar con clientes, con el objetivo de alcanzar una relación sólida y duradera, mantener el mayor número de negocios con sus clientes y obtener el mayor beneficio” (p.142). 
         p La empresa utiliza herramientas de mercadeo y su portafolio de ofertas para encontrar la mejor manera de crear valor, lo que fomenta una relación a largo plazo con el cliente. A continuación, se presentan aspectos básicos de la gestión de clientes, incluyendo cómo captarlos y fidelizarlos a través del desarrollo de acciones promocionales y la atención a sus quejas y reclamaciones. 
 
-    p De acuerdo con esto, Gronroos (1990, como se citó en Agüero, 2014, p. 8) propone las siguientes funciones del #[em marketing] relacional que debe llevar una empresa: 
+    p De acuerdo con esto, Gronroos (1990, como se citó en Agüero, 2014, p. 8) propone las siguientes funciones del #[em marketing] relacional que debe llevar una empresa.
     
     .row.justify-content-center.align-items-center.mb-0(data-aos="fade-right")
       .col-lg-10
@@ -28,7 +28,7 @@
     .row.justify-content-center.align-items-center.mb-0
       .col-lg-8
         .cajon.color-secundario.p-4.mb-4
-          p Sólo las empresas que conocen y entienden de mejor manera las necesidades, los intereses y deseos de sus clientes, son aquellas capaces de preparar las mejores propuestas de productos para ser entregados al mercado.
+          p Solo las empresas que conocen y entienden de mejor manera las necesidades, los intereses y deseos de sus clientes, son aquellas capaces de preparar las mejores propuestas de productos para ser entregados al mercado.
     
     separador
     #t_2_1.titulo-segundo.mb-4
@@ -214,7 +214,10 @@
             br
             p.mb-0  (Escamilla, 2020).
 
-    p Un cliente es leal basado en un conjunto de interacciones satisfactorias con la empresa. La fidelización busca principalmente: 1) que el cliente siga comprando a lo largo del tiempo, y 2) aumentar el volumen de compra.
+    p.mb-0 Un cliente es leal basado en un conjunto de interacciones satisfactorias con la empresa. 
+    p.mb-0 La fidelización busca principalmente: 
+    p.mb-0 1. Que el cliente siga comprando a lo largo del tiempo, y
+    p.mb-4 2. Aumentar el volumen de compra.
     p.mb-3 Basado en lo anterior, el siguiente video expone lo que conlleva el proceso de fidelización de un cliente, sus grados de satisfacción y la estrategia que se utiliza bajo los pasos del mercado relacional:
 
     figure

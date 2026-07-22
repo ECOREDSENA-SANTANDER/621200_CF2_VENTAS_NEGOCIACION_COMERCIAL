@@ -7,14 +7,14 @@
         span 1
       h1 El cliente
     
-    p.mb-5 Un cliente es la persona o entidad que accede a un producto o servicio mediante una transacción financiera, dinero u otro medio de pago. Es quien compra y quien consume. La siguiente figura ilustra estos roles de comprador y consumidor:
+    p.mb-5 Un cliente es la persona o entidad que accede a un producto o servicio mediante una transacción financiera, dinero u otro medio de pago. Es quien compra y quien consume. La siguiente figura ilustra estos roles de comprador y consumidor.
     .row.justify-content-center.align-items-center.mb-5(data-aos="fade-left")
       .col-lg-12
         .titulo-sexto.color-secundario.mb-4
           h5 Figura 1. 
           |  Roles del cliente
         img(src='@/assets/curso/temas/Tema1/img01.svg', alt='Se muestra un juego de roles donde se expone que normalmente el cliente-comprador son la misma persona, sin embargo hay situaciones donde la persona que compra no es la misma persona que consume o el usuario del servicio.')
-    p La siguiente tabla refuerza el concepto y la diferencia entre usuario y cliente:
+    p La siguiente tabla refuerza el concepto y la diferencia entre usuario y cliente.
     
     .row.justify-content-center.align-items-center.mb-2(data-aos="fade-left", alt='La tabla muestra las diferencias clave entre un usuario y un cliente. El usuario se caracteriza por ser quien utiliza el producto o servicio de manera transitoria, sin ser propietario del mismo y con una relación pasajera. Por otro lado, el cliente es quien paga por el producto, hace un uso definitivo, se queda con el producto y establece una relación a largo plazo como dueño.')
       .col-lg-10.col-md-12
@@ -46,7 +46,7 @@
       .col-lg-5.col-10.col-md-6
         img(src='@/assets/curso/temas/Tema1/img02.svg', alt='')
     
-    p Indudablemente, el cliente es el principal objetivo hacia donde la empresa realiza su mayor esfuerzo, hacía él todos los planes y las estrategias de mercadeo deben enfocarse, desarrollarse e implementarse en función de ese cliente. Por tanto, las empresas tienen diferentes compradores o clientes de acuerdo con el tipo o segmento de mercado en el que compiten o en el que comercializan sus productos. La siguiente figura presenta otros conceptos que se tienden a usar para referirse al mercado, según Schnarch (2013, p. 74):
+    p Indudablemente, el cliente es el principal objetivo hacia donde la empresa realiza su mayor esfuerzo, hacia él todos los planes y las estrategias de mercadeo deben enfocarse, desarrollarse e implementarse en función de ese cliente. Por tanto, las empresas tienen diferentes compradores o clientes de acuerdo con el tipo o segmento de mercado en el que compiten o en el que comercializan sus productos. La siguiente figura presenta otros conceptos que se tienden a usar para referirse al mercado, según Schnarch (2013, p. 74).
     
     
     .row.justify-content-center.align-items-center.mb-5(data-aos="fade-right")
@@ -55,8 +55,8 @@
           h5 Figura 2. 
           | Conceptos de mercado
         img(src='@/assets/curso/temas/Tema1/img03.svg', alt='Se presentan los conceptos de mercado potencial, mercado total, mercado disponible, tamaño del mercado y mercado disponible calificado, organizados de forma secuencial según el nivel de interés, acceso, capacidad de compra y cumplimiento de las características requeridas para una oferta específica.') 
-    p.mb-0 Las organizaciones deben conocer a sus clientes, la manera en que deciden comprar, cómo convertirlos de shopper a buyer y monetizarlos, etc.  Este cliente sigue un proceso racional de compra, de acuerdo como lo indica Promove Consultoría e Formación, SLNE (2012, p. 15). 
-    p.mb-5 A continuación, se presenta el proceso:  
+    p.mb-0 Las organizaciones deben conocer a sus clientes, la manera en que deciden comprar, cómo convertirlos de #[i shopper] a #[i buyer] y monetizarlos, etc.  Este cliente sigue un proceso racional de compra, de acuerdo como lo indica Promove Consultoría e Formación, SLNE (2012, p. 15). 
+    p.mb-5 A continuación, se presenta el proceso.
 
     
     .row.justify-content-center.align-items-center.mb-5(data-aos="fade-left")
@@ -66,7 +66,7 @@
           | Proceso de compra
         img(src='@/assets/curso/temas/Tema1/img04.svg', alt='El proceso de compra comienza con la manifestación de la necesidad, ya sea latente o palpable. Luego sigue una búsqueda pasiva de información, la evaluación de las distintas alternativas, y finalmente, la elección y compra del producto o servicio. El proceso concluye con el comportamiento posventa.') 
     p De esto se desprenden aspectos importantes a considerar. Por ejemplo, es crucial conocer dónde buscan información los clientes, ya que es en esos lugares donde la empresa debe estar presente. Esto puede lograrse mediante folletos, anuncios y a través de algún prescriptor.
-    p Con base en lo anterior y de acuerdo con los diferentes mercados que se explicarán posteriormente, se presenta la relación entre estos y el cliente:  
+    p Con base en lo anterior y de acuerdo con los diferentes mercados que se explicarán posteriormente, se presenta la relación entre estos y el cliente.  
     
     .row.justify-content-center.align-items-center.mb-5(data-aos="fade-right")
       .col-lg-10
@@ -93,9 +93,10 @@
     figure
       .video
         iframe(width="560" height="315" src="https://www.youtube.com/embed/elZYn3fXeMo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen)
-      figcaption Video: prospección de clientes: mercado de consumo 
+      figcaption Video: prospección de clientes - mercado de consumo
+
     .py-2
-    p INSTIPP (2020, p. 38) también indica que estos mercados son aquellos en donde se realizan transacciones de bienes y servicios que se adquieren a través de los productos finales de consumo, los cuales a su vez se pueden clasificar en tres categorías principales:
+    p INSTIPP (2020, p. 38) también indica que estos mercados son aquellos en donde se realizan transacciones de bienes y servicios que se adquieren a través de los productos finales de consumo, los cuales a su vez se pueden clasificar en tres categorías principales.
     
     
     .row.justify-content-center.align-items-center.mb-0(data-aos="fade-left")
@@ -197,7 +198,7 @@
 
     .row.justify-content-center.align-items-center.mb-2(data-aos="fade-right")
       .col-lg-12
-        p Corresponde a las empresas que adquieren o compran los bienes y servicios con el propósito de revenderlos o rentarlos  a otros obteniendo una utilidad. Con relación a este caso, podemos mencionar a empresas como supermercados que le compran a una gran cantidad de empresas diferentes tipos de productos, que luego son vendidos en los supermercados. Entre los tipos de revendedores se tienen los siguientes:
+        p Corresponde a las empresas que adquieren o compran los bienes y servicios con el propósito de revenderlos o rentarlos  a otros obteniendo una utilidad. Con relación a este caso, podemos mencionar a empresas como supermercados que le compran a una gran cantidad de empresas diferentes tipos de productos, que luego son vendidos en los supermercados. Entre los tipos de revendedores se tienen los siguientes.
       .col-lg-5.col-md-12
         .titulo-sexto.color-secundario.mb-4
           h5 Figura 5. 

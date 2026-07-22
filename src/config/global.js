@@ -145,62 +145,49 @@ export default {
     {
       referencia:
         'Agüero, C. (2014). Estrategia de fidelización de clientes. Universidad de Cantabria.',
-      link: '',
     },
     {
       referencia:
-        'Escamilla, G. (2020). Fidelización del cliente: concepto, importancia, consejos y métricas. RD Station.',
-      link: '',
+        'Escamilla, G. (2020). Fidelización del cliente: Concepto, importancia, consejos y métricas. RD Station.',
     },
     {
       referencia:
-        'González, M. (2002). Concepto de mercado y sus tipos. Gestiópolis.',
-      link: 'https://www.gestiopolis.com/concepto-mercado-tipos/',
+        'González Camacho, M. (2018). Segmentación, definición de público objetivo y posicionamiento [Presentación]. Universidad Interamericana para el Desarrollo.',
     },
     {
       referencia:
-        'González Camacho, M. (2018). Segmentación, Definición de Público Objetivo y Posicionamiento. [presentación] Universidad Interamericana para el desarrollo. ',
-      link: '',
+        'González, M. (2002). Concepto de mercado y sus tipos. GestioPolis.',
     },
     {
       referencia:
-        'Gronroos, C. (1994). Marketing y Gestión de servicios. Diaz de Santos. 1a Edición.',
-      link: '',
+        'Grönroos, C. (1994). Marketing y gestión de servicios (1.ª ed.). Ediciones Díaz de Santos.',
     },
     {
       referencia:
-        'Hatch, H. (2016). La fidelización de clientes no sólo tiene forma de tarjeta. ',
-      link: 'https://soy.marketing/la-fidelizacion-de-clientes/ ',
+        'Hatch, H. (2016). La fidelización de clientes no solo tiene forma de tarjeta. Soy.Marketing.',
     },
     {
       referencia:
-        'Promove Consultoría e formación SLNE. (2012). Atraer y fidelizar clientes. CEEI Galicia.',
+        'Promove Consultoría e Formación, S. L. N. E. (2012). Atraer y fidelizar clientes. CEEI Galicia.',
     },
     {
       referencia:
-        'Pursell, S. (2021). Clientes potenciales: qué son, qué tipos existen y cómo identificarlos. HubSpot.',
-      link: 'https://blog.hubspot.es/marketing/tipos-de-clientes-potenciales ',
+        'Pursell, S. (2021). Clientes potenciales: Qué son, qué tipos existen y cómo identificarlos. HubSpot.',
     },
     {
       referencia:
         'Quiroa, M. (2020). Cliente: Qué es y cuál es su importancia. Economipedia.',
-      link: 'https://economipedia.com/definiciones/cliente.html',
     },
     {
       referencia:
-        'Redacción emprendedores (2021). ¿Qué significa modelo de negocio? Emprendedores.es. ',
-      link:
-        'https://www.emprendedores.es/estrategia/que-significa-modelo-de-negocio/',
+        'Redacción Emprendedores. (2021). ¿Qué significa modelo de negocio? Emprendedores.',
     },
     {
-      referencia:
-        'Schnarch, A. (2013). <i>Marketing</i> para pymes. Alfa Omega. ',
-      link: '',
+      referencia: 'Schnarch, A. (2013). Marketing para pymes. Alfaomega.',
     },
     {
       referencia:
         'Torres Morales, V. (2014). Administración de ventas. Grupo Editorial Patria.',
-      link: '',
     },
   ],
   glosario: [
@@ -284,16 +271,6 @@ export default {
       significado:
         'Cliente potencial recomendado por un cliente, aliado o contacto, lo que facilita el establecimiento de una relación comercial.',
     },
-    {
-      termino: 'Retención de clientes',
-      significado:
-        'Estrategias y acciones implementadas para mantener a los clientes actuales, promover su permanencia y aumentar su valor para la organización.',
-    },
-    {
-      termino: 'Segmento de mercado',
-      significado:
-        'Grupo de consumidores que comparten características, necesidades o comportamientos similares, lo que permite diseñar estrategias comerciales específicas (Quiroa, 2020).',
-    },
   ],
   creditos: [
     {
@@ -301,8 +278,9 @@ export default {
       autores: [
         {
           nombre: 'Claudia Johanna Gómez Pérez',
-          cargo: 'Responsable del ecosistema',
-          centro: 'Dirección General',
+          cargo:
+            'Profesional 06. Responsable Ecosistema Virtual de Recursos Educativos Digitales',
+          centro: 'Centro Agroturístico - Regional Santander',
         },
         {
           nombre: 'Edison Eduardo Mantilla Cuadros',
@@ -363,7 +341,7 @@ export default {
         },
         {
           nombre: 'Maria Alejandra Vera Briceño',
-          cargo: 'Animadora y productor multimedia',
+          cargo: 'Animadora y productora multimedia',
           centro: 'Centro Agroturístico - Regional Santander',
         },
       ],
@@ -373,12 +351,12 @@ export default {
       autores: [
         {
           nombre: 'Erika Daniela Manrique Rueda',
-          cargo: 'Validadora de recursos educativos digitales',
+          cargo: 'Validadora y vinculadora de recursos educativos digitales',
           centro: 'Centro Agroturístico - Regional Santander',
         },
         {
-          nombre: 'Erika Fernanda Mejía Pinzón',
-          cargo: 'Evaluadora para contenidos inclusivos y accesibles',
+          nombre: 'Laura Paola Gelvez Manosalva',
+          cargo: 'Evaluadora de contenidos inclusivos y accesibles',
           centro: 'Centro Agroturístico - Regional Santander',
         },
       ],
