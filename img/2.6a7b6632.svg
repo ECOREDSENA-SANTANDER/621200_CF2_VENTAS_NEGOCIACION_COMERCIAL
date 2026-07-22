@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1237" height="498.128" viewBox="0 0 1237 498.128">
+  <defs>
+    <clipPath id="clip-path">
+      <path id="Trazado_1261789" data-name="Trazado 1261789" d="M19.952,0h1197.1A19.976,19.976,0,0,1,1237,20V478.128a19.976,19.976,0,0,1-19.952,20H19.952A19.976,19.976,0,0,1,0,478.128V20A19.976,19.976,0,0,1,19.952,0Z" transform="translate(184 352)" fill="#fff"/>
+    </clipPath>
+    <linearGradient id="linear-gradient" x1="0.106" y1="0.024" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#75baf1"/>
+      <stop offset="1" stop-color="#fff"/>
+    </linearGradient>
+  </defs>
+  <g id="Grupo_1204385" data-name="Grupo 1204385" transform="translate(-221 -6239.372)">
+    <g id="Grupo_1204278" data-name="Grupo 1204278" transform="translate(24 551.372)">
+      <g id="Grupo_1204277" data-name="Grupo 1204277" transform="translate(17 -606.938)">
+        <path id="Trazado_1261789-2" data-name="Trazado 1261789" d="M19.952,0h1197.1A19.976,19.976,0,0,1,1237,20V478.128a19.976,19.976,0,0,1-19.952,20H19.952A19.976,19.976,0,0,1,0,478.128V20A19.976,19.976,0,0,1,19.952,0Z" transform="translate(180 6294.938)" fill="#fff"/>
+        <rect id="Rectángulo_401046" data-name="Rectángulo 401046" width="397.776" height="284.616" transform="translate(912 6470.968)" fill="#fff"/>
+      </g>
+      <g id="Enmascarar_grupo_1098704" data-name="Enmascarar grupo 1098704" transform="translate(13 5336)" clip-path="url(#clip-path)">
+        <path id="Elipse_4044" data-name="Elipse 4044" d="M181.667,49.1c-73.1,0-132.568,59.47-132.568,132.568s59.47,132.568,132.568,132.568,132.568-59.47,132.568-132.568S254.765,49.1,181.667,49.1m0-49.1A181.667,181.667,0,1,1,0,181.667,181.667,181.667,0,0,1,181.667,0Z" transform="translate(1373 418.032)" opacity="0.16" fill="url(#linear-gradient)"/>
+        <path id="Elipse_4044-2" data-name="Elipse 4044" d="M45.365,12.261a33.1,33.1,0,1,0,33.1,33.1,33.142,33.142,0,0,0-33.1-33.1M45.365,0A45.365,45.365,0,1,1,0,45.365,45.365,45.365,0,0,1,45.365,0Z" transform="translate(210.61 736)" fill="#f1f1f1" opacity="0.46"/>
+        <path id="Elipse_4044-3" data-name="Elipse 4044" d="M45.365,12.261a33.1,33.1,0,1,0,33.1,33.1,33.142,33.142,0,0,0-33.1-33.1M45.365,0A45.365,45.365,0,1,1,0,45.365,45.365,45.365,0,0,1,45.365,0Z" transform="translate(146.61 510.333)" fill="#f1f1f1" opacity="0.46"/>
+        <path id="Elipse_4044-4" data-name="Elipse 4044" d="M45.365,12.261a33.1,33.1,0,1,0,33.1,33.1,33.142,33.142,0,0,0-33.1-33.1M45.365,0A45.365,45.365,0,1,1,0,45.365,45.365,45.365,0,0,1,45.365,0Z" transform="translate(1338 690.634)" fill="#f1f1f1" opacity="0.46"/>
+        <path id="Elipse_4044-5" data-name="Elipse 4044" d="M218.192,58.971C130.4,58.971,58.971,130.4,58.971,218.192S130.4,377.413,218.192,377.413s159.221-71.426,159.221-159.221S305.987,58.971,218.192,58.971m0-58.971C338.7,0,436.384,97.688,436.384,218.192S338.7,436.384,218.192,436.384,0,338.7,0,218.192,97.688,0,218.192,0Z" transform="translate(-171.384 624.333)" opacity="0.16" fill="url(#linear-gradient)"/>
+        <path id="Elipse_4044-6" data-name="Elipse 4044" d="M248.192,67.079c-99.866,0-181.113,81.247-181.113,181.113S148.326,429.3,248.192,429.3,429.3,348.058,429.3,248.192,348.058,67.079,248.192,67.079m0-67.079C385.265,0,496.384,111.119,496.384,248.192S385.265,496.384,248.192,496.384,0,385.265,0,248.192,111.119,0,248.192,0Z" transform="matrix(0.259, -0.966, 0.966, 0.259, 446.22, 1173.023)" opacity="0.16" fill="url(#linear-gradient)"/>
+        <path id="Elipse_4044-7" data-name="Elipse 4044" d="M181.667,49.1c-73.1,0-132.568,59.47-132.568,132.568s59.47,132.568,132.568,132.568,132.568-59.47,132.568-132.568S254.765,49.1,181.667,49.1m0-49.1A181.667,181.667,0,1,1,0,181.667,181.667,181.667,0,0,1,181.667,0Z" transform="translate(276.244 38.539) rotate(70)" opacity="0.16" fill="url(#linear-gradient)"/>
+      </g>
+    </g>
+  </g>
+</svg>
